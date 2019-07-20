@@ -1,0 +1,31 @@
+@import url("main.css");
+.sect_wrap{
+    overflow : auto;
+}
+
+.sect_pic_border {
+    float : left;
+    clear : both;
+}
+
+.sect_pic {
+    float : left;
+    clear: both;
+    position : relative;
+    margin : 30px 50px 50px 50px;
+    border : 5px solid gray;
+    width : 300px;
+    height : 300px;
+}
+
+.sect_p {
+    padding : 1px;
+    float : left;
+    font-size : 15px;
+    margin : 30px 1px 1px 1px;
+
+}
+
+.footer_inf {
+    clear : both;
+}

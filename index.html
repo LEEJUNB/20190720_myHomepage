@@ -3,16 +3,42 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>저를소개해요</title>
+    <title> 홈 </title>
     <link rel="stylesheet" href="main.css">
     <script src="js/start.js"></script>
   </head>
   <body>
     <div class="wrap">
-        <div class="static">static</div>
-        <div class="relative">relative</div>
-        <div class="absolute">absoulte</div>
-        <div class="fixed">fixed</div>
+        <header class = "nav_wrap">
+            <input class = "nav_button" type="button" value="홈" onClick="location.href='index.html'">
+            <input class = "nav_button" type="button" value="자기소개" onClick="location.href='aboutme.html'">
+            <input class = "nav_button" type="button" value="내사진" onClick="location.href='http://www.daum.net'">
+            <input class = "nav_button" type="button" value="몇시예요" onClick="location.href='http://www.daum.net'">
+        </header>
+
+        <section class = "sect_wrap">
+            <article >
+                <h1> Full Stack training </h1>
+                <ul class = "sect_li">
+                    <li> I love web dev </li>
+                    <li> love dev </li>
+                </ul>
+            </article>
+
+            <article >
+                <input class = "sect_button" type="button" value="자기소개" onClick="location.href='aboutme.html'">
+                <input class = "sect_button" type="button" value="내사진" onClick="location.href='http://www.daum.net'">
+            </article>
+
+            <article>
+                <img class ="sect_img" src="https://www.touropia.com/gfx/b/2019/02/cities_in_south_korea_map.jpg" alt="map">
+            </article>
+        </section>
+
+        <footer class="footer_inf">
+            <a class="foot_a" href="https://0ver-grow.tistory.com">Tistory</a><br>
+            <a class="foot_a" href="https://github.com/LEEJUNB">Github</a> 
+        </footer>
     </div>
   </body>
 </html>
