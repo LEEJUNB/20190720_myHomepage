@@ -43,7 +43,7 @@ public class headerServlet extends HttpServlet {
 			String headerValue = request.getHeader(headerName);// headerName을 통해 getHeader()통해 헤더값을 알 수 있다.
 			out.println(headerName + " : " + headerValue + " <br> ");// 이를 응답 결과에 담아 브라우저에 출력한다.
 		}
-
+		out.println("<h1>test</h1>");
 		out.println("<//body>");
 		out.println("<//html>");
 	}
